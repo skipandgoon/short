@@ -22,7 +22,7 @@
 4. 选择你创建的项目存储库，在`Set up builds and deployments`部分中，全部默认即可。
 5. 点击`Save and Deploy`，稍等片刻，你的网站就部署好了。
 6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)
-7. 执行sql命令创建表（在控制台输入框粘贴下面语句执行即可）
+7. 执行sql命令创建表（在控制台输入框粘贴下面语句执行即可，建议分两次分别粘贴）
 
 ```sql
 DROP TABLE IF EXISTS links;
