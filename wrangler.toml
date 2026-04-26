@@ -1,9 +1,0 @@
-name = "short"  # 你的 Worker 名称
-main = " index.js" # 或者是你的入口文件，如 index.js
-compatibility_date = "2026-04-26"
-
-# 重点在这里：绑定 D1 数据库
-[[d1_databases]]
-binding = "DB"           # 代码里使用的变量名 (env.DB)
-database_name = "short_db" # 你的 D1 数据库名称
-database_id = "b4f99324-d33e-468f-99ca-f806c6a6f0a0" # 你的 D1 数据库 ID
